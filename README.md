@@ -1,4 +1,4 @@
-# builder_texlive
+# docker_texlive
 Dockerfile for texlive
 
 ```command
