@@ -2,5 +2,6 @@
 Dockerfile for texlive
 
 ```command
-docker pull termoshtt/builder_texlive
+docker pull termoshtt/texlive
+docker run -it termoshtt/texlive /bin/bash
 ```
