@@ -8,4 +8,5 @@ RUN apt-get update && apt-get -y install \
   texlive-luatex \
   texlive-math-extra \
   && apt-get clean
+RUN apt-get -y install curl
 COPY .latexmkrc /root/
