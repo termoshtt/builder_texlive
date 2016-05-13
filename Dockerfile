@@ -1,6 +1,8 @@
 FROM ubuntu
 MAINTAINER termoshtt <toshiki.teramura@gmal.com>
 RUN apt-get update && apt-get -y install \
+  curl \
+  latexdiff \
   latexmk \
   texlive \
   texlive-lang-japanese \
@@ -8,5 +10,4 @@ RUN apt-get update && apt-get -y install \
   texlive-luatex \
   texlive-math-extra \
   && apt-get clean
-RUN apt-get -y install curl
 COPY .latexmkrc /root/
