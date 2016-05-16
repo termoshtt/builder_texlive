@@ -10,6 +10,7 @@ RUN apt-get update && apt-get -y install \
   texlive-lang-japanese \
   texlive-latex-extra \
   texlive-luatex \
+  texlive-publishers \
   texlive-math-extra \
   && apt-get clean
 COPY .latexmkrc /root/
