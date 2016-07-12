@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM debian
 MAINTAINER termoshtt <toshiki.teramura@gmail.com>
 RUN apt-get update && apt-get -y install \
   curl \
