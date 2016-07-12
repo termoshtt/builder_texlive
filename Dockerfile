@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER termoshtt <toshiki.teramura@gmal.com>
+MAINTAINER termoshtt <toshiki.teramura@gmail.com>
 RUN apt-get update && apt-get -y install \
   curl \
   latexdiff \
