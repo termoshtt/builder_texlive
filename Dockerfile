@@ -15,3 +15,4 @@ RUN apt-get update && apt-get -y install \
   texlive-math-extra \
   && apt-get clean
 COPY .latexmkrc /root/
+WORKDIR /src
