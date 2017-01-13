@@ -9,6 +9,8 @@ RUN apt-get update && apt-get -y install \
   patch \
   texlive \
   texlive-lang-japanese \
+  texlive-xetex \
+  texlive-fonts-extra \
   texlive-latex-extra \
   texlive-luatex \
   texlive-publishers \
