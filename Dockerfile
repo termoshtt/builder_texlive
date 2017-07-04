@@ -15,6 +15,8 @@ RUN apt-get update && apt-get -y install \
   texlive-luatex \
   texlive-publishers \
   texlive-math-extra \
+  texlive-science \
+  texlive-metapost \
   && apt-get clean
 COPY .latexmkrc /root/
 WORKDIR /src
